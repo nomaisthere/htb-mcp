@@ -1,10 +1,5 @@
-from mcp.server.fastmcp import FastMCP
-
-mcp = FastMCP("htb-mcp")
-
-import tools.users
-import tools.machines
-import tools.search
+#!/usr/bin/env python3
+from htb_mcp.cli import main
 
 if __name__ == "__main__":
-    mcp.run()
+    raise SystemExit(main())

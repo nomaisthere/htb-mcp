@@ -102,8 +102,3 @@ The server exposes these FastMCP tools:
 - `list_htb_sherlock_tasks`
 - `submit_htb_sherlock_task_flag`
 
-## Notes
-
-- Machine API behavior is based on patterns from `../htb-utils`.
-- Challenge API behavior is based on patterns from `../blooded-by-codex`.
-- Challenge downloads are extracted with the standard HTB zip password.
